@@ -5,6 +5,7 @@ const cors = require('cors');
 
 import { router } from "./routes";
 
+
 server.use(express.json(), cors(), router)
 
 

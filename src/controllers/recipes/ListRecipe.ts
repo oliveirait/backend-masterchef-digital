@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { db } from "../database/prismaConnect";
+import { db } from "../../database/prismaConnect";
 
 
 export class ListRecipe {
