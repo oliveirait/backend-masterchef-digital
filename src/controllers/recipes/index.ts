@@ -4,7 +4,7 @@ import { ListRecipe } from "./ListRecipe";
 import { UpdateRecipe } from "./UpdateRecipe";
 
 
-export const Recipes = {
+export const recipes = {
   create: new CreateRecipe,
   read: new ListRecipe,
   del: new DeleteRecipe,

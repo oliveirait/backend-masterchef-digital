@@ -12,7 +12,7 @@ export class CreateRecipe {
             instruction
           }
         })
-        return response.json(recipes)
+        return response.json({status: 'ok', created: recipes})
     }
 }
 
